@@ -1,0 +1,19 @@
+name: radio
+version: 0.1.0
+
+authors:
+  - Scott Boggs <scott@tams.tech>
+
+targets:
+  radio:
+    main: src/radio.cr
+
+dependencies:
+  magic:
+    github: dscottboggs/magic.cr
+  kemal:
+    github: kemalcr/kemal
+
+crystal: 0.31.1
+
+license: MIT
